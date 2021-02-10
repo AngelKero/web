@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Formularios</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12 col-lg-6 bg-success">
+                    <p class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem facilis delectus temporibus quod amet nostrum laborum quibusdam vel, perspiciatis itaque optio beatae saepe, labore a doloribus! Delectus cum aperiam ullam ab inventore maxime eius distinctio illo ipsam non veritatis, consequatur dolorum rem aspernatur corporis sit tenetur ad velit quis fugit. Nemo sed numquam animi facilis quibusdam quod veniam quia eligendi quasi sit, enim eius veritatis obcaecati tenetur maiores quis, repellendus quos dolorem. Adipisci labore cum quam odio iste. Tenetur rem quae placeat ratione sequi. Ut dolorum asperiores earum debitis! Culpa et magni soluta sequi asperiores? Architecto aut est dolores esse incidunt sunt, neque tempora voluptas magni quis vitae illo veritatis impedit tempore. Assumenda facere nisi nihil quia ratione atque, alias fuga dolorem commodi maxime labore soluta praesentium hic ut. Officiis cupiditate ea nulla inventore quisquam porro nesciunt sed in ad voluptas modi necessitatibus, minima laborum, vel nemo quas ratione. Cum!</p>
+                </div>
+                <div class="col-12 col-lg-6 ml-auto">
+                    <!-- Todo elemento debe estar encerrado de un .form-group -->
+                    <!-- Todos los .form-group deben estar encerrados dentro de un <form> -->
+                    <form action="">
+                        <div class="form-group">
+                          <label for="nombre">Contraseña:</label>
+                          <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre:" aria-describedby="nombre">
+                          <small id="nombre" class="text-muted">Help text</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña:" aria-describedby="password">
+                            <small id="password" class="text-muted">Help text</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="pais">Pais</label>
+                            <select class="form-control" name="pais" id="pais">
+                                <option value="mexico">Mexico</option>
+                                <option value="espana">España</option>
+                                <option value="peru">Peru</option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="sexo" id="hombre" value="hobre" checked>
+                                Hombre
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="sexo" id="mujer" value="mujer">
+                                Mujer
+                            </label>
+                        </div>
+                        <hr class="mx-3">
+                        <div class="form-check mt-3 text-center">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                                Acepto Terminos y condiciones
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mt-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        .caja{
+            box-sizing: border-box;
+            padding: 40px 15px;
+            background-color: brown;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            display: inline-block;
+            color: snow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 42px;
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceder a los Elementos del DOM</title>
+    <script src="jQuery/jquery-3.4.1.min.js"></script>
+    <script src="dom.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="padre">
+            <div class="caja">1</div>
+            <div class="caja">2</div>
+            <div class="caja" id="tercera">3</div>
+            <div class="caja">4</div>
+            <div class="caja">5</div>
+        </div>
+    </div>
+</body>
+</html>

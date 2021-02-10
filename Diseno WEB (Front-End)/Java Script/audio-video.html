@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos Audio y Video</title>
+</head>
+<body>
+    <video id="video" src="media/video.mp4" controls>
+        <p>Tu navegador no soporta video en HTML5, por favor actualizalo</p>
+    </video>
+    <br>
+    <audio id="audio" src="media/audio.mp3" controls>
+        <p>Tu navegador no soporta audio en HTML5, por favor actualizalo</p>
+    </audio>
+    <br>
+    <button id="btnPlay">Reproducir</button>
+    <button id="btnPause">Pausar</button>
+    <input type="range" name="volumen" id="volumen" value="1" min="0" max="1" step="0.1">
+
+    <script src="audio-video.js"></script>
+</body>
+</html>

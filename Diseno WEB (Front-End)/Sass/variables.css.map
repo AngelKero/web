@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAC;EACH,UAAU,EAJJ,OAAe;CAIA;;AACvB,AACE,SADO,CACP,OAAO,CAAC;EACN,KAAK,EARO,OAAiB;CAQL;;AAF5B,AAGE,SAHO,CAGP,CAAC,CAAC;EACA,KAAK,EAVO,OAAiB;CAYP;;AAN1B,AAKI,SALK,CAGP,CAAC,CAEC,CAAC,CAAC;EACA,KAAK,EAVD,OAAiB;CAUH",
+    "sources": [
+        "variables.sass"
+    ],
+    "names": [],
+    "file": "variables.css"
+}

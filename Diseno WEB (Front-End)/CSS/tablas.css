@@ -1,0 +1,29 @@
+body{font-family: Arial;}
+
+
+table td,th{
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+table{
+  border-collapse: collapse;
+  width: 450px;
+}
+
+td, th{
+  padding: 7px 10px;
+  text-align: center;
+}
+
+th{
+  background: #009ddc;
+  color: white;
+}
+
+tr:hover{
+  background: #e5e5e5;
+}
+
+td:hover{
+  background: #b4b4b4;
+}

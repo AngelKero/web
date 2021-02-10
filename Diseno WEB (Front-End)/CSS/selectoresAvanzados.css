@@ -1,0 +1,27 @@
+*{
+  background-color: black;
+  color: white;
+}
+
+div > p{
+  font-size: 20px;
+  color: orange;
+}
+
+input[type]{
+  color: red;
+}
+
+input[type="text"]{
+  color: cyan;
+}
+
+body{
+  font-size: 24px;
+  color: blue;
+}
+
+article{
+  font-size: 20px;
+  color: green;
+}

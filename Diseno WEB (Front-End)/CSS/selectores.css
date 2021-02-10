@@ -1,0 +1,47 @@
+/* Comentario */
+
+*{
+  color: white;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: red;
+}
+
+h2{
+  color: orange;
+}
+
+h3{
+  color: green;
+}
+
+p{
+  font-size: 24px;
+}
+
+div p{
+  font-size: 20px;
+}
+
+div article p{
+  font-size: 16px;
+}
+
+a{
+  font-size: 12px;
+}
+
+p a{
+  font-size: 20px;
+  color: yellow;
+}
+
+.grande{
+  font-size: 28px;
+}
+
+#rojo{
+  color: red;
+}

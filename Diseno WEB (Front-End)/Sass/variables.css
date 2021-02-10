@@ -1,0 +1,16 @@
+body {
+  background: #404040;
+}
+
+.articulo .titulo {
+  color: #25bcd6;
+}
+
+.articulo p {
+  color: #25bcd6;
+}
+
+.articulo p a {
+  color: #d7842d;
+}
+/*# sourceMappingURL=variables.css.map */

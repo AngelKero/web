@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar elementos del DOM con jQuery</title>
+    <style>
+        .contenedor{
+            width: 900px;
+            background-color: tomato;
+            padding: 20px;
+        }
+        .caja{
+            width: 150px;
+            height: 150px;
+            background-color: teal;
+            display: inline-block;
+            margin: 10px;
+            color: snow;
+            font-size: 44px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>
+    <script src="jQuery/jquery-3.4.1.min.js"></script>
+    <script src="eliminarElementosDOM.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja" id="tercera">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+    </div>
+</body>
+</html>

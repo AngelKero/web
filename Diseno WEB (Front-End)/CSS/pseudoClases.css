@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: sans-serif, Arial;
+}
+
+a{
+  background: #4357ad;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 30px;
+}
+
+a:hover{
+  background: #009ddc;
+}
+
+a:active{
+  background: #000;
+}
+
+a:visited{
+  /*background: #ccc;*/
+}
+
+div{
+  width: 550px;
+  margin-left: 30px;
+}
+
+div p:hover{
+  background: #000;
+  color: #fff;
+}
+
+div p::first-line{
+  background: #3a3a3a;
+}
+
+div p:nth-child(2){
+  background: #009ddc;
+  color: #fff;
+  padding: 10px;
+}

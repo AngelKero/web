@@ -1,0 +1,34 @@
+.info
+    position: relative
+    .contenedor
+        overflow: visible
+        position: relative
+        .foto
+            position: absolute//para que funciene un absolute tiene que haber un padre con relative
+            //o se tomara como referencia a la pestaña del navegador
+            left: 0px
+            top: -80px
+            z-index: 0
+            box-shadow: 0px 0px 20px #3f3f3fa1
+            width: 80%
+            img
+                vertical-align: top
+                width: 100%
+        .descripcion
+            position: relative
+            z-index: 1
+            float: right
+            top: 200px
+            box-shadow: 0px 0px 20px #3f3f3fa1
+            width: 50%
+            background: snow
+            padding: 40px
+            transform: translate(0px, 0px)
+            h3 
+                margin: 0px
+                font-size: 2.6em
+                font-weight: 300
+            p 
+                line-height: 1.25em
+                font-size: 1.25em
+                

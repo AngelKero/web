@@ -1,0 +1,16 @@
+body {
+  background: #f2f2f2;
+}
+
+body .titulo {
+  color: #000;
+}
+
+body .autor {
+  color: #87ad56;
+}
+
+body p a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=sintax.css.map */

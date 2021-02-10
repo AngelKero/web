@@ -1,0 +1,23 @@
+body{
+    background: peachpuff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    width: 400px;
+    padding: 20px;
+    background: snow;
+}
+
+.caja{
+    padding: 20px 10px;
+    margin: 10px 0px;
+    text-align: center;
+    background: wheat;
+    font-size: 24px;
+    color: grey;
+}
+
+.naranja{
+    background: orangered;
+}

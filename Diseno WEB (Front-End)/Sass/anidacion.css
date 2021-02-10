@@ -1,0 +1,42 @@
+body {
+  background: #4e4e4e;
+  font-family: Arial;
+}
+
+body .articulo {
+  width: 500px;
+  padding: 20px;
+  background: #b9b9b9;
+}
+
+body .articulo .titulo {
+  color: #883d00;
+}
+
+body .articulo .autor {
+  color: #789bbb;
+}
+
+body .articulo p a {
+  text-decoration: none;
+  color: #883d00;
+}
+
+body .articulo p a:hover {
+  text-decoration: underline;
+}
+
+body .articulo div {
+  text-align: center;
+}
+
+body .articulo div a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #883d00;
+}
+
+body .articulo div a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=anidacion.css.map */

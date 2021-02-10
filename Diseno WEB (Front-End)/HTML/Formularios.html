@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios</title>
+</head>
+
+<!--"maxlength" sirve para bloquear los caracteres que el usuario puede escribir-->
+<!--"name" sirve para distinguir como id en el back-end-->
+<!--"value" valor que recibe el back-end-->
+<!--"required" sirve para vilidar que un campo este lleno al usuario-->
+<!--"disable" sirve para desabilitar un campo-->
+<!--"readonly" sirve para que un campo solo sea de lectura-->
+<!--"id" sirve para buscar en el dom un elemento para javascript-->
+<!--"for" relacionar una label con otro elemento y lo selecciona segun su id-->
+
+<body>
+  <form class="" action="index.html" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="" placeholder="Nombre:" maxlength="20" size="50" required>
+    <br>
+
+    <input type="email" name="" placeholder="Correo:">
+    <br>
+    <textarea name="mensaje" id="mensaje" rows="8" cols="80" placeholder="Mensaje:"></textarea>
+    <br>
+
+    <label for="pais">Pais:</label>
+    <select class="pais" name="pais" id="pais" >
+      <option value="mexico">Mexico</option>
+      <option value="españa">España</option>
+      <option value="argentina">Argentina</option>
+    </select>
+    <br>
+
+    <!--"name tiene que ser el mismo en los radio"-->
+    <label for="genero">Genero:</label>
+    <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+    <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+    <br>
+
+    <label for="terminos">Acepto terminos y condiciones</label>
+    <input type="checkbox" name="terminos" value="terminos" id="terminos">
+    <br>
+
+    <input type="submit" name="" value="Enviar">
+  </form>
+
+</body>
+</html>

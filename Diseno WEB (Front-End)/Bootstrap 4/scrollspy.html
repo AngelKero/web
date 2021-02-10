@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Scrollspy</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            body{
+                /* padding-top: 56px; */
+            }
+
+            .fm-nav a{
+                color: white;
+                padding: 15px;
+            }
+
+            .fm-nav a:hover, .fm-nav .active{
+                background: rgba(255, 255, 255, .1);
+            }
+
+            .seccion{
+                margin-bottom: 1000px;
+            }
+
+            .columna{
+                padding-top: 100px;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target="#az-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="az-nav" id="az-nav">
+                        <ul class="fm-nav nav fixed-top navbar-inverse bg-primary">
+                            <li class="nav-item">
+                                <a href="#seccion1" class="nav-link">Seccion #1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#seccion2" class="nav-link">Seccion #2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#seccion3" class="nav-link">Seccion #3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row seccion" id="seccion1">
+                <div class="col columna">
+                    <h2>Seccion 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae esse sed voluptatibus expedita placeat voluptates ipsa nam impedit deserunt sequi sapiente nulla sint, repudiandae dignissimos ad. Provident iste veritatis mollitia dolor nisi eum, impedit non beatae. Accusantium officiis corporis, ut labore at sunt porro quaerat dignissimos reprehenderit laudantium, enim eveniet quod illum? Voluptas beatae atque quo iste praesentium magni. Expedita veniam beatae, enim ipsa quis aliquam molestias tenetur numquam impedit suscipit nihil excepturi neque sit molestiae corrupti? Labore dolorem reiciendis adipisci odit rerum consequatur deleniti iste eum officiis enim? Rem aperiam quibusdam vel magni illo facilis soluta alias modi labore beatae. Blanditiis fugit numquam nam est pariatur obcaecati aliquam quasi rerum laborum? Reiciendis, atque et eos mollitia dolorem sint cumque porro aut ea odit tempora officiis debitis, beatae soluta error cupiditate tenetur consectetur saepe nulla, id voluptatibus ratione. Modi vel pariatur eaque assumenda veritatis necessitatibus quisquam laudantium quibusdam culpa?</p>
+                </div>
+            </div>
+
+            <div class="row seccion" id="seccion2">
+                <div class="col columna">
+                    <h2>Seccion 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae esse sed voluptatibus expedita placeat voluptates ipsa nam impedit deserunt sequi sapiente nulla sint, repudiandae dignissimos ad. Provident iste veritatis mollitia dolor nisi eum, impedit non beatae. Accusantium officiis corporis, ut labore at sunt porro quaerat dignissimos reprehenderit laudantium, enim eveniet quod illum? Voluptas beatae atque quo iste praesentium magni. Expedita veniam beatae, enim ipsa quis aliquam molestias tenetur numquam impedit suscipit nihil excepturi neque sit molestiae corrupti? Labore dolorem reiciendis adipisci odit rerum consequatur deleniti iste eum officiis enim? Rem aperiam quibusdam vel magni illo facilis soluta alias modi labore beatae. Blanditiis fugit numquam nam est pariatur obcaecati aliquam quasi rerum laborum? Reiciendis, atque et eos mollitia dolorem sint cumque porro aut ea odit tempora officiis debitis, beatae soluta error cupiditate tenetur consectetur saepe nulla, id voluptatibus ratione. Modi vel pariatur eaque assumenda veritatis necessitatibus quisquam laudantium quibusdam culpa?</p>
+                </div>
+            </div>
+
+            <div class="row seccion" id="seccion3">
+                <div class="col columna">
+                    <h2>Seccion 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, beatae esse sed voluptatibus expedita placeat voluptates ipsa nam impedit deserunt sequi sapiente nulla sint, repudiandae dignissimos ad. Provident iste veritatis mollitia dolor nisi eum, impedit non beatae. Accusantium officiis corporis, ut labore at sunt porro quaerat dignissimos reprehenderit laudantium, enim eveniet quod illum? Voluptas beatae atque quo iste praesentium magni. Expedita veniam beatae, enim ipsa quis aliquam molestias tenetur numquam impedit suscipit nihil excepturi neque sit molestiae corrupti? Labore dolorem reiciendis adipisci odit rerum consequatur deleniti iste eum officiis enim? Rem aperiam quibusdam vel magni illo facilis soluta alias modi labore beatae. Blanditiis fugit numquam nam est pariatur obcaecati aliquam quasi rerum laborum? Reiciendis, atque et eos mollitia dolorem sint cumque porro aut ea odit tempora officiis debitis, beatae soluta error cupiditate tenetur consectetur saepe nulla, id voluptatibus ratione. Modi vel pariatur eaque assumenda veritatis necessitatibus quisquam laudantium quibusdam culpa?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

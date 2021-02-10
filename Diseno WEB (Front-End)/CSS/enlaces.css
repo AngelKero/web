@@ -1,0 +1,29 @@
+*{
+  margin: 10px;
+  background: black;
+}
+
+a{
+  padding: 10px;
+  font-size: 20px;
+  color: cyan;
+  text-decoration: none;
+}
+/* Estado del enlace mientras se pasa el mouse por */
+a:hover{
+  background: orange;
+  color: white;
+}
+/* Enlace sin visitar */
+a:link{
+  color: yellow;
+}
+/* Enlace visitado */
+a:visited{
+  color: #ccc;
+}
+/* Estado del enlace mientras se esta haciendo click */
+a:active{
+  text-decoration: underline;
+  color: cyan;
+}

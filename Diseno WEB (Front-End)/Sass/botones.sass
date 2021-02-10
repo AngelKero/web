@@ -1,0 +1,30 @@
+body
+  background: rgb(57, 57, 57)
+  font-family: Arial, sans-serif
+
+%boton
+  display: inline-block
+  padding: 15px 20px
+  background: none
+  color: white
+  text-decoration: none
+  margin-right: 20px
+  &:hover
+    text-decoration: underline
+    background: rgb(244, 255, 38)
+    color: black
+
+.btn-rojo
+  background: rgb(154, 0, 0)
+  @extend %boton
+
+.btn-verde
+  background: rgb(19, 138, 0)
+  @extend %boton
+
+.btn-azul
+  background: rgb(13, 86, 122)
+  @extend %boton
+
+@debug 5px * 2px
+22222222222222222222222222222200000000022222222222222222222222222

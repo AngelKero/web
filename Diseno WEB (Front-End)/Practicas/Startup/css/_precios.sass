@@ -1,0 +1,76 @@
+.precios
+    position: relative
+    background: url('../img/precios.png') #868686
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+    padding-top: 100px
+    padding-bottom: 150px
+    .planes
+        .plan
+            background: white
+            padding: 50px 0px
+            box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, .7)
+            border-radius: 3px
+            text-align: center
+            .nombre
+                font-size: 32px
+                line-height: 32px
+                font-weight: 300
+                margin-bottom: 30px
+            .precio
+                font-weight: 300
+                font-size: 46px
+                margin-bottom: 50px
+            .li-caracteristicas
+                list-style: none
+                padding: 0px 20px
+                margin-bottom: 50px
+                li
+                    font-size: 18px
+                    padding: 15px 0px
+                    border-bottom: 1px solid #5c5c5c
+            a
+                width: 70%
+                padding: 10px 0px
+                text-align: center
+                border: 1px solid #000000
+                text-decoration: none
+                border-radius: 4px
+                display: inline-block
+            &.verde
+                .nombre,
+                .precio
+                    color: #86c216
+                a
+                    color: #86c216
+                    border: 1px solid #86c216
+                    &:hover
+                        background: #86c216
+                        color: #fff
+                        border: 1px solid #fff
+            &.active
+                overflow: visible
+                transform: scale(1.1)
+                background: #2a85af
+                color: white
+                a
+                    color: #ffffff
+                    border: 1px solid #ffffff
+                    transition: all .3s ease
+                    &:hover
+                        transform: scale(1.2)
+                        background: #ffffff
+                        color: #2a85af
+                        border: 1px solid #2a85af
+            &.naranja
+                .nombre,
+                .precio
+                    color: #d8b721
+                a
+                    color: #d8b721
+                    border: 1px solid #d8b721
+                    &:hover
+                        background: #d8b721
+                        color: #fff
+                        border: 1px solid #fff

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos del DOM</title>
+    <style>
+        .caja{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            margin: 20px 7px;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<!--Documentacion de todos los eventos https://developer.mozilla.org/en-US/docs/Web/Events-->
+<body>
+    <!--Modelo Basico-->
+    <h2>Basico</h2>
+    <button onclick="saludo()">Saludo</button>
+    <!--Modelo estandar-->
+    <h2>Estandar</h2>
+    <button id="btn_saludar">Saludo</button>
+
+    <h2>Crear Caja</h2>
+    <button id="btn_CrearCaja">Crear Caja</button>
+    <section id="contenedor">
+
+
+    </section>
+
+    <script src="eventos.js">
+        /* Exixten 3 modelos de eventos diferentes:
+			- Modelo basico de eventos.
+				Caracteristicas limitadas.
+				Pero Funciona en todos los navegadores.
+
+			- Modelo de eventos estandar.
+				Podemos hacer mas cosas con el
+				Todos los navegadores lo soportan.
+
+				Las versiones anteriores de Internet explorer como IE7 no lo soportan.
+
+			- Modelo de eventos de Internet Explorer.
+				Modelo creado por Microsoft exclusivamente para IE.
+		*/
+    </script>
+</body>
+</html>

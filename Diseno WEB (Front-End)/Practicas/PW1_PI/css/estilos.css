@@ -1,0 +1,269 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+  margin:0;
+  padding:0;
+}
+*::selection{
+  background-color: teal;
+  color: white;
+}
+h1, h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: verdana, geneva, serif;
+  background: url('../img/pattern-info.png'), rgba(98, 15, 194, 0.753);
+}
+
+
+header {
+  position: relative;
+  padding: 0px 0;
+  overflow: hidden;
+}
+
+header .paginaweb{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+header .paginaweb img{
+  width: 100%;
+  height: 100%;
+  margin-top: -10%;
+  filter: blur(5px);
+}
+
+header h1{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.685);
+  text-align: center;
+  background-color: rgba(209, 209, 209, 0.63);
+  padding: 15px 20px;
+  color: #552f80c4;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.contenedor,
+div.contenido {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/** Navegacion **/
+.navegacion{
+  z-index: 9;
+  position: sticky;
+  top: 0;
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.664);
+}
+nav {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  border-bottom: 3px solid rgb(31, 31, 31);
+}
+
+
+nav ul li a:hover {
+  background-color: #4600a1;
+  border-bottom: 3px solid #dd0ed3;
+}
+
+/* SEgundo nivel **/
+
+nav ul ul {
+  position: absolute;
+  top:100%;
+  background-color: #2d0068;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul li:hover {
+  background-color: #4600a1;
+}
+
+/** Contenido Principal**/
+div.contenido::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+main {
+  width: 70%;
+  float: left;
+  padding-right: 40px;
+}
+aside {
+  float: right;
+  width: 30%;
+}
+/* entradas **/
+article, aside {
+  padding: 20px 15px;
+  border-radius: 3px;
+  background-color: rgba(165, 165, 165, 0.685);
+  margin: 30px 0px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.801);
+}
+h2 {
+  text-align: center;
+    color: #4600a1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.767);
+    margin-bottom: 20px;
+}
+article::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+article img {
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.123);
+  border: 1px dotted rgb(39, 39, 39);
+  border-radius: 4px;
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px 1px;
+    transition: all ease .3s;
+}
+article img:hover{
+  opacity: 1;
+  transform: scale(2) translateX(200px) translateY(-60px);
+  z-index: 10;
+}
+article p {
+    line-height: 2;
+    text-align: justify;
+}
+.boton {
+    background-color: #552f80c4;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: .3s all ease;
+}
+
+.boton:hover{
+  background-color: #552f8079;
+  transform: scale(1.1);
+}
+
+audio{
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.836);
+}
+/** Aside **/
+aside {
+  position: sticky;
+  top: 90px;
+  margin-top: 30px;
+}
+aside ul {
+  list-style: none;
+}
+aside ul li {
+    padding: 10px 0 10px 10px;
+
+}
+aside ul li:hover {
+  cursor: pointer;
+  background-color: #e0007b;
+
+}
+aside ul li a {
+    color: #135e6b;
+    font-weight: 600;
+    padding: 10px 0;
+    text-decoration: none;
+}
+aside ul li:hover a {
+  color: #000000;
+}
+/** Footer **/
+footer {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.685);
+  background-color: rgb(64, 42, 163);
+  padding-top: 40px;
+  margin-top:30px;
+}
+
+footer h2 {
+    color: white;
+}
+footer p{
+  text-align: justify;
+  font-weight: 100;
+  line-height: 28px;
+}
+footer .contenedor::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer .nosotros {
+  float: left;
+  width: 30%;
+  color: white;
+}
+footer .menu {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+footer nav {
+  width: auto;
+}
+footer nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+footer nav a:hover{
+  text-decoration: underline;
+}
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.audio {
+    margin: 20px 0;
+}

@@ -1,0 +1,426 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background: #271313b4;
+  color: snow;
+  padding: 7px 5px;
+}
+
+*::selection {
+  background: #271313b4;
+  color: snow;
+  padding: 7px 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.contenedor {
+  width: 70%;
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+main {
+  position: relative;
+  background-image: url("../img/bg-textura.png");
+  background-repeat: repeat;
+}
+
+.titulo {
+  font-family: 'Lemonada', cursive;
+}
+
+header {
+  width: 100%;
+  background: url("../img/bg.jpg") #281a0c;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+header .contenedor {
+  height: 80vh;
+}
+
+header .contenedor .menu {
+  width: 100%;
+  text-align: right;
+  margin: 35px 0px;
+}
+
+header .contenedor .menu a {
+  color: snow;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  padding-left: 7px;
+  border-left: 1px solid snow;
+  margin: 5px 20px;
+}
+
+header .contenedor .menu a:hover {
+  text-decoration: underline;
+}
+
+header .contenedor .introduccion {
+  width: 100%;
+  color: snow;
+  position: relative;
+  top: 50%;
+  margin-top: -180px;
+}
+
+header .contenedor .introduccion .nombre {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+header .contenedor .introduccion .nombre span {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+header .contenedor .introduccion .descipcion {
+  font-weight: 300;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.info {
+  position: relative;
+}
+
+.info .contenedor {
+  overflow: visible;
+  position: relative;
+}
+
+.info .contenedor .foto {
+  position: absolute;
+  left: 0px;
+  top: -80px;
+  z-index: 0;
+  -webkit-box-shadow: 0px 0px 20px #3f3f3fa1;
+          box-shadow: 0px 0px 20px #3f3f3fa1;
+  width: 80%;
+}
+
+.info .contenedor .foto img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.info .contenedor .descripcion {
+  position: relative;
+  z-index: 1;
+  float: right;
+  top: 200px;
+  -webkit-box-shadow: 0px 0px 20px #3f3f3fa1;
+          box-shadow: 0px 0px 20px #3f3f3fa1;
+  width: 50%;
+  background: snow;
+  padding: 40px;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.info .contenedor .descripcion h3 {
+  margin: 0px;
+  font-size: 2.6em;
+  font-weight: 300;
+}
+
+.info .contenedor .descripcion p {
+  line-height: 1.25em;
+  font-size: 1.25em;
+}
+
+main .platillos {
+  padding-top: 600px;
+  margin-bottom: 100px;
+}
+
+main .platillos .contenedor .titulo {
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main .platillos .contenedor .contenedor-menu {
+  border: 1px solid black;
+  padding: 5px;
+  background: transparent;
+  width: 100%;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 {
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article h4 {
+  font-size: 1.45em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+  text-decoration: underline;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .platillo {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px dotted black;
+  overflow: hidden;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .platillo .nombre {
+  font-style: italic;
+  font-size: 1.23em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  float: left;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .platillo .precio {
+  font-size: 1.23em;
+  font-weight: 400;
+  margin-bottom: 15px;
+  float: right;
+  padding-left: 7px;
+  border-left: 1px solid black;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .platillo .descipcion {
+  clear: both;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+
+main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .platillo .descipcion::first-letter {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+main .galeria {
+  border-top: 3px solid black;
+  overflow: hidden;
+  width: 100%;
+}
+
+main .galeria .fotos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .galeria .fotos .foto {
+  width: 25%;
+  overflow: hidden;
+}
+
+main .galeria .fotos .foto img {
+  width: 100%;
+  vertical-align: top;
+  opacity: .5;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+main .galeria .fotos .foto img:hover {
+  opacity: 1.2;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+main .ubicacion {
+  padding: 60px 0px;
+  overflow: hidden;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background: url("../img/cork-board.png") #6e5a47c0;
+}
+
+main .ubicacion .titulo {
+  margin: 0px;
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 40px;
+  line-height: 34px;
+}
+
+main .ubicacion .direccion {
+  float: left;
+  margin-top: 38px;
+  font-size: 1.45em;
+}
+
+main .ubicacion .horarios {
+  float: right;
+  overflow: hidden;
+}
+
+main .ubicacion .horarios h4 {
+  font-size: 1.55em;
+  font-weight: 600;
+  text-align: center;
+}
+
+main .ubicacion .horarios .entre-semana {
+  font-size: 1.45em;
+  padding-right: 60px;
+  float: left;
+}
+
+main .ubicacion .horarios .entre-semana h6 {
+  text-align: center;
+}
+
+main .ubicacion .horarios .fin-semana {
+  float: right;
+  font-size: 1.45em;
+}
+
+main .ubicacion .horarios .fin-semana h6 {
+  text-align: center;
+}
+
+main .mapa {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 3px solid black;
+}
+
+main .mapa iframe {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+footer {
+  background: #000000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#434343), to(#000000));
+  background: linear-gradient(to top, #434343, #000000);
+  padding: 15px 0px;
+}
+
+footer .contenedor .copyrigth p {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  color: snow;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+  .contenedor {
+    width: 90%;
+    position: static;
+    height: auto;
+  }
+  header .contenedor {
+    height: auto;
+  }
+  header .contenedor .menu {
+    text-align: center;
+  }
+  header .contenedor .introduccion {
+    position: static;
+    margin: 100px 0px;
+    margin-bottom: 200px;
+  }
+  main .info .contenedor .foto {
+    position: relative;
+    width: 100%;
+  }
+  main .info .contenedor .descripcion {
+    position: relative;
+    width: 100%;
+    float: none;
+    top: -100px;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  main .platillos {
+    padding-top: 0px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+  }
+  main .platillos .contenedor .contenedor-menu .contenedor-menu2 article {
+    width: 100%;
+  }
+  main .galeria .fotos .foto {
+    width: 50%;
+  }
+  main .mapa {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  body {
+    font-size: 10px;
+  }
+  .contenedor {
+    width: 95%;
+  }
+  main .platillos .contenedor .contenedor-menu .contenedor-menu2 {
+    padding: 5px;
+  }
+  main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .nombre, main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .precio {
+    margin-bottom: 10px;
+  }
+  main .platillos .contenedor .contenedor-menu .contenedor-menu2 article .descipcion {
+    line-height: 13px;
+  }
+  main .ubicacion .titulo {
+    padding-bottom: 10px;
+    line-height: 34px;
+  }
+  main .ubicacion .direccion {
+    width: 100%;
+    text-align: center;
+  }
+  main .ubicacion .horarios {
+    width: 100%;
+    text-align: center;
+  }
+  main .mapa {
+    height: 300px;
+  }
+  main .mapa iframe {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=master.css.map */

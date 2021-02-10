@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ccc;
+}
+
+body header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header .logo{
+    border-right: 1px solid white;
+    padding: 20px;
+}
+body header .logo i{
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+body nav a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+body nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

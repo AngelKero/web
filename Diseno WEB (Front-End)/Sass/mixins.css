@@ -1,0 +1,18 @@
+/*@mixin colores($fondo, $articulo)
+  body
+    background: $fondo
+  .articulo
+    background: $articulo */
+/*@include colores(rgb(116, 116, 116), rgb(213, 213, 213)) */
+article {
+  border-radius: 20px;
+}
+
+footer {
+  border-radius: 5px;
+}
+
+article {
+  background: rgba(159, 153, 153, 0.5);
+}
+/*# sourceMappingURL=mixins.css.map */

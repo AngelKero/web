@@ -1,0 +1,5 @@
+#Conocer version actual de node.js
+node -v
+
+#Conocer Version Actual de npm
+npm -v

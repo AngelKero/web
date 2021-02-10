@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle, #080729 0%, #1b0938 50%, #164368 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rgb {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ec7a0f), color-stop(#66df16), color-stop(#28dbdb), to(#b9157a));
+  background: linear-gradient(#ec7a0f, #66df16, #28dbdb, #b9157a);
+  -webkit-animation: rgb 2s linear infinite;
+          animation: rgb 2s linear infinite;
+}
+
+@-webkit-keyframes rgb {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rgb {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.rgb span {
+  position: absolute;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ec7a0f), color-stop(#66df16), color-stop(#28dbdb), to(#b9157a));
+  background: linear-gradient(#ec7a0f, #66df16, #28dbdb, #b9157a);
+  width: 100%;
+  height: 100%;
+}
+
+.rgb span:nth-child(1) {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.rgb span:nth-child(2) {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+.rgb span:nth-child(3) {
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+}
+
+.rgb::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  background: #070a3f;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*# sourceMappingURL=master.css.map */
